@@ -1,0 +1,11 @@
+<h1>R Packages List</h1>
+<ul>
+<% for package in @packages %>
+  <li>
+    <h2><%= package.name %> (<%= package.version %>)</h2>
+    <%= link_to "Show Details", home_path(package), class: 'show-details-cta' %>
+  </li>
+<% end%>
+</ul>
+
+<%= paginate @packages %>

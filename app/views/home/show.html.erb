@@ -1,0 +1,14 @@
+<h1>Packages details</h1>
+  <h2><%= @package.name %> (<%= @package.version %>)</h2>
+  <p>
+    <strong>Repository<strong>: <%= @package.repository %> <br/>
+    <strong>Title<strong>: <%= @package.title %> <br/>
+    <strong>Description<strong>: <%= @package.additional_details["description"] %> <br/>
+    <strong>Version<strong>: <%= @package.version %> <br/>
+    <strong>License<strong>: <%= @package.license %> <br/>
+    <strong>Depends<strong>: <%= @package.depends %> <br/>
+    <strong>Author<strong>: <%= @package.author %> <br/>
+    <strong>Maintainer<strong>: <%= @package.maintainer %> <br/>
+    <strong>Last Updated<strong>: <%= @package.updated_at %> <br/>
+  </p>
+</ul>

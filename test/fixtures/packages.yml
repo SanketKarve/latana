@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  repository: MyString
+  name: MyString
+  r_version_needed: MyString
+  depends: MyString
+  publication_date: 2023-03-06 01:32:17
+  title: MyString
+  author: MyString
+  maintainer: MyString
+  license: MyString
+  additional_details: 
+
+two:
+  repository: MyString
+  name: MyString
+  r_version_needed: MyString
+  depends: MyString
+  publication_date: 2023-03-06 01:32:17
+  title: MyString
+  author: MyString
+  maintainer: MyString
+  license: MyString
+  additional_details: 
