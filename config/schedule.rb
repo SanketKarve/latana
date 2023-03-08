@@ -7,6 +7,6 @@
 #
 set :output, 'log/cron.log'
 
-every 5.minute do
+every 24.hours do
   rake 'cran_packages_list:update'
 end

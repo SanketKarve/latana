@@ -23,9 +23,9 @@ namespace :cran_packages_list do
       @package = Package.find_by(name: package[:name])
       if @package.present?
         # If version does not match then update the package
-        if @package.version != package.version
-          puts "Updating #{package[:name]} from #{@package.version} to #{package[:version]}"
-          @package.update_attributes(package)
+        if @package[:version] != package[:version]
+          puts "Updating #{package[:name]} from #{@package[:version]} to #{package[:version]}"
+          @package.update(package)
         end
       else
         # If not record found the create new record for the package
